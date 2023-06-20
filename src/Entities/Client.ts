@@ -1,18 +1,18 @@
-// import { Entity,PrimaryColumn, Column, BaseEntity, PrimaryGeneratedColumn} from "typeorm";
+import { Entity,PrimaryColumn, Column, BaseEntity, PrimaryGeneratedColumn} from "typeorm";
 
 
-// @Entity()
-// export class Client extends BaseEntity{
-//     @PrimaryGeneratedColumn()
-//     id!:number;
+@Entity()
+export class Client extends BaseEntity{
+    @PrimaryGeneratedColumn()
+    id!:number;
 
-//     @Column({default:true})
-//     name !:string ;
+    @Column({default:true})
+    name !:string ;
     
-//     @Column({default:true})
-//     decription!:string;
+    @Column({default:true})
+    decription!:string;
 
-//     @Column({default:true})
-//     status!:boolean;
+    @Column({default:true})
+    status!:boolean;
 
-// }
+}

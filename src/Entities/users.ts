@@ -1,3 +1,5 @@
+
+
 import { Entity, PrimaryColumn, Column, BaseEntity, PrimaryGeneratedColumn} from "typeorm";
 
 
@@ -10,9 +12,6 @@ export class users extends BaseEntity{
     name !:string ;
     
     @Column({default:true})
-    decription!:string;
-
-    @Column({default:true})
-    status!:boolean;
-
+    email!:string;
+   
 }
